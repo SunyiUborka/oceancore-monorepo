@@ -22,7 +22,7 @@ services:
 
 
   app:
-    image: rcsnjszg/backend2023
+    image: rcsnjszg/backend2024
     build:
       context: ./docker/php
       dockerfile: Dockerfile
