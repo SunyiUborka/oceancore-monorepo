@@ -1,5 +1,5 @@
 # Cseréld le az Alpine képet egy Debian alapú képre a problémák elkerülése érdekében
-FROM php:8.1-fpm
+FROM php:8.2-fpm
 
 # Felhasználó hozzáadása
 RUN adduser --uid 1000 --shell /bin/fish --disabled-password --gecos "" phpdocker

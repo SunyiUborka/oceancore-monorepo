@@ -1,5 +1,5 @@
 # Használjuk az Alpine alapú PHP 8.1 FPM verziót
-FROM php:8.1-fpm-alpine3.17
+FROM php:8.2-fpm-alpine3.17
 
 # Hozzáadjuk a felhasználót helyesen Alpine rendszeren
 RUN adduser -u 1000 -D -s /bin/sh phpdocker
