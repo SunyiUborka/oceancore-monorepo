@@ -21,3 +21,4 @@ yarn-error.log
 
 docker/php/home
 docker/mysql/var/lib/mysql/*
+docker/mongodb/*
