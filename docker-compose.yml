@@ -32,9 +32,9 @@ services:
       ports:
           - 27017:27017
       environment:
-          MONGO_INITDB_ROOT_USERNAME: ${MONGO_ROOT_USER}
-          MONGO_INITDB_ROOT_PASSWORD: ${MONGO_ROOT_PASSWORD}
-          MONGODB_CONNSTRING: ${MONGO_CONNECTION_STRING}
+          MONGO_INITDB_ROOT_USERNAME: "${MONGODB_ROOT_USER}"
+          MONGO_INITDB_ROOT_PASSWORD: "${MONGODB_ROOT_PASSWORD}"
+          MONGODB_CONNSTRING: "${MONGODB_URI}"
       volumes:
           - ./docker/mongodb:/data/db
       networks:
