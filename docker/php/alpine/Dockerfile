@@ -21,12 +21,12 @@ RUN apk update && apk add --no-cache \
     libxml2-dev \
     vim \
     fish \
-    libssl1.1 \
     libcurl \
     pkgconf \
     autoconf \
     g++ \
     make \
+    openssl-dev \
     && rm -rf /var/cache/apk/*
 
 # PHP kiterjesztések telepítése
